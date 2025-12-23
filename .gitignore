@@ -1,0 +1,13 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Build / dist
+.dist/
+
+# Media
+*.mp4
+
+# Env
+.env
