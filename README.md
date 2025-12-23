@@ -32,3 +32,50 @@ A full-stack **Expense Tracker** system built with **Django REST API** for the b
 
 ## Project Structure
 
+webfinal/
+│
+├── backend/ # Django backend
+│ ├── expense_api/ # Django project
+│ │ ├── settings.py
+│ │ ├── urls.py
+│ │ └── wsgi.py
+│ ├── expenses/ # Django app
+│ │ ├── models.py
+│ │ ├── serializers.py
+│ │ ├── urls.py
+│ │ └── views.py
+│ └── manage.py
+│
+├── frontend/ # Frontend files
+│ ├── index.html
+│ ├── style.css
+│ └── app.js
+│
+├── venv/ # Python virtual environment
+└── .gitignore
+
+
+---
+| Method | Endpoint              | Description                   |
+| ------ | --------------------- | ----------------------------- |
+| GET    | /api/expenses/        | Get all expenses              |
+| POST   | /api/expenses/        | Add a new expense             |
+| DELETE | /api/expenses/<id>/   | Delete an expense by ID       |
+| GET    | /api/expenses/export/ | Export expenses (JSON or CSV) |
+
+Group Members
+
+-Yousef Ashraf
+-Amir Mohamed 
+
+Video Demo
+
+[Link to demo video](Expense Tracker - Google Chrome 2025-12-24 00-47-44.mp4)
+
+License
+
+This project is licensed under the MIT License
+
+This version is fully **ready to paste** into your GitHub repository as `README.md`.  
+
+If you want, I can also **add some GitHub badges** for Python, Django, and license to make it look more professional. Do you want me to do that?
